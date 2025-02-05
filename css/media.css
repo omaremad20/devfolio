@@ -1,0 +1,228 @@
+@media all and (width < 992px)
+{
+        a.dev-logo
+        {
+            font-size: 2rem;
+        }
+        h1.welcome-text
+        {
+            font-size: 3.5rem;
+        }
+        span.anmie-word , p.text-anmie
+        {
+            font-size: 1.5rem ;
+        }
+        .navbar.scrolled
+        {
+            background-color: black !important; 
+        }  
+        section.blog-active::after ,
+        section.work-active::after , 
+        section.service-active::after , 
+        section.about-active::after ,  
+        section.contact-active::after , 
+        li.nav-item a.nav-links-after::before , 
+        li.nav-item a.nav-links-after-contact::before ,
+        li.nav-item a.nav-links-after-spcial::before ,
+        span.drop-txt::before
+        {
+            content: unset;
+        }
+        ul.for-media
+        {
+            width: 100%;
+        }
+        .title-about::after
+        {
+            width: 32%;
+        }
+        ul li span.defination
+        {
+            font-size: 1.25rem !important;
+        }
+        li span.li-for-color
+        {
+            font-size: 1.1rem !important;
+        }
+        span.skill-percentage
+        {
+            font-size: 1.25rem;
+            
+        }
+        p.skill-txt-media
+        {
+            font-size: 1.4rem;
+        }
+        ul.for-ul-items
+        {
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-align: center;
+        }
+        .description-service::after , p.descrip-blog::after , p.descrip-port::after
+        {
+            bottom: -50%;
+            width: 15%;
+            height: 15%;
+        }
+        .modal
+        {
+            width: 100% !important;
+            position: absolute;
+            top: 25%;
+            left: 25%;
+            transform: translateX(-25%);
+        }
+        .modal-body
+        {
+            position: unset;
+            transform: unset;
+            width: unset !important;
+        }
+
+        .btn-close-modal
+        {
+            transform: unset;
+            position: relative;
+            left: 95%;
+            transform: translateX(-95%);
+        }
+        .main-modal-index
+        {
+            position: fixed;
+            z-index: 20000;
+        }
+        span.carousel-control-next-icon
+        {
+            position: unset;
+            transform: unset;
+        }
+        span.carousel-control-prev-icon
+        {
+            position: unset;
+        }
+        .modal-backdrop
+        {
+            opacity: 1 !important;
+            width: 100% !important;
+            height: 100% !important;
+        }
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon 
+        {
+            background-color: rgba(0, 0, 0, 1);
+        }
+        section.main-section-form
+        {
+            background-image: linear-gradient(rgba(0, 96, 204 , 1) , rgba(0, 96, 204 , 1)) , url(../images/overlay-bg.jpg)  ; 
+        }
+        h5.send-title::after
+        {
+            width: 35%;
+        }
+        div.card-footer small.edited-color
+        {
+            width: 25%;
+        }
+        .navbar-collapse 
+        {
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.25); 
+            height: 100vh;
+        }
+        li.nav-item a.nav-link
+        {
+            width: 100%;
+            margin-top: -0.1rem;
+            margin-bottom: -0.1rem;
+        }
+        li.nav-item
+        {
+            display: flex;
+            justify-content: start;
+            align-items: flex-start;
+            padding-left: unset;
+        }
+        ul.navbar-nav
+        {
+            background-color: #181A1B;
+            display: flex !important;
+            align-items: flex-start !important;
+            width: 90%;
+            margin: auto;
+            height: 100vh;
+        }
+        div.have-ul
+        {
+            position: unset;
+            visibility: visible;
+            margin-top: unset;
+            opacity: 1;
+            background-color: #181a1b9e;
+            width: 100%;
+            transform: unset;
+            height: 50vh;
+        }
+        .for-hover:hover .have-ul
+        {
+            visibility: unset !important;
+            opacity: unset !important;
+            transform:unset !important;
+        }
+        .deep-links
+        {
+            position: absolute !important;
+            top: 100% !important;
+            left: 5%;
+            background-color: #181a1b9e;
+            width: 90%;
+            margin: auto;
+            visibility: visible !important;
+            opacity: 1 !important;
+            transform: unset;
+        }
+        .for-spacing:hover .deep-links
+        {
+            visibility: unset !important;
+            opacity: unset !important;
+        }
+        .main-drop
+        {
+            width: 100%;
+            background-color: #181a1b9e;
+            height: 50vh;
+        }
+        div.txt-icon
+        {
+            display: flex;
+            justify-content: space-between ;
+            align-items: center;
+            margin-top: -0.1rem;
+            margin-bottom: 0.25rem;
+        }
+        i.fa-solid.fa-angle-down
+        {
+            margin-right: 1rem;
+        }
+        .move
+        {
+            position: absolute;
+            top: 73%;
+        }
+        li a.move-contact
+        {
+            padding-top: 2.25rem;
+        }
+         .nav-item:hover .nav-link
+        {
+            color: rgb(51, 161, 255) !important;
+        }
+        .drop-txt , .fa-angle-down
+        {
+            transition: all ease-in-out 0.3s;
+        }
+        .txt-icon:hover .drop-txt , .txt-icon:hover .fa-angle-down
+        {
+            color: rgb(51, 161, 255)  !important;
+        }
+}
